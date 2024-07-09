@@ -51,7 +51,7 @@ const LessonModal = ({
                 {children}
                 <Button className="bg-orange-2 focus-visible:ring-0 focus-visible:ring-offset-0" onClick={handleClick}>
                     {buttonIcon && (
-                        <image src={buttonIcon} alt="button icon"
+                        <img src={buttonIcon} alt="button icon"
                         width={13}
                         height={13} />
                     )}&nbsp;
